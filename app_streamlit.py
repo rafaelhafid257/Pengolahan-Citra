@@ -7,7 +7,7 @@ def main():
     # 1. Judul dan Konfigurasi Halaman
     st.set_page_config(page_title="Image Enhancement App", layout="wide")
     st.title("Aplikasi Pengolahan Citra Digital - Image Enhancement")
-    st.markdown("Oleh: **Muhammad Rossi & Rafael Hafid Taftazani**")
+    # st.markdown("Oleh: **Muhammad Rossi & Rafael Hafid Taftazani**")
 
     # 2. Upload Gambar (Pengganti filedialog Tkinter)
     uploaded_file = st.sidebar.file_uploader("Pilih Gambar", type=["jpg", "jpeg", "png"])
@@ -91,4 +91,5 @@ def main():
         st.info("Silakan upload gambar melalui sidebar di sebelah kiri.")
 
 if __name__ == "__main__":
+
     main()
